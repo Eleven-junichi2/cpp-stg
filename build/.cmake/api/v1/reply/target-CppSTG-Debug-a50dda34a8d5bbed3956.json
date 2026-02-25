@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cppstg"
+			"path" : "CppSTG"
 		}
 	],
 	"backtrace" : 1,
@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -71,7 +71,7 @@
 			]
 		}
 	],
-	"id" : "cppstg::@6890427a1f51a3e7e1df",
+	"id" : "CppSTG::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -103,8 +103,8 @@
 			"id" : "SDL3::SDL3-shared::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "cppstg",
-	"nameOnDisk" : "cppstg",
+	"name" : "CppSTG",
+	"nameOnDisk" : "CppSTG",
 	"paths" : 
 	{
 		"build" : ".",

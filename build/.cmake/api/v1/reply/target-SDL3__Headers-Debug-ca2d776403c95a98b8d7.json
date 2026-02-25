@@ -1,11 +1,5 @@
 {
 	"abstract" : true,
-	"artifacts" : 
-	[
-		{
-			"path" : "/opt/homebrew/lib/libSDL3.0.dylib"
-		}
-	],
 	"backtrace" : 5,
 	"backtraceGraph" : 
 	{
@@ -13,12 +7,11 @@
 		[
 			"add_library",
 			"include",
-			"find_package",
-			"set_target_properties"
+			"find_package"
 		],
 		"files" : 
 		[
-			"/opt/homebrew/lib/cmake/SDL3/SDL3sharedTargets.cmake",
+			"/opt/homebrew/lib/cmake/SDL3/SDL3headersTargets.cmake",
 			"/opt/homebrew/lib/cmake/SDL3/SDL3Config.cmake",
 			"CMakeLists.txt"
 		],
@@ -30,7 +23,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 4,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
@@ -40,7 +33,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 42,
+				"line" : 33,
 				"parent" : 2
 			},
 			{
@@ -52,12 +45,6 @@
 				"file" : 0,
 				"line" : 59,
 				"parent" : 4
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 61,
-				"parent" : 4
 			}
 		]
 	},
@@ -66,30 +53,15 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "SDL3::SDL3-shared::@6890427a1f51a3e7e1df",
+	"id" : "SDL3::Headers::@6890427a1f51a3e7e1df",
 	"imported" : true,
-	"interfaceCompileDependencies" : 
-	[
-		{
-			"backtrace" : 6,
-			"id" : "SDL3::Headers::@6890427a1f51a3e7e1df"
-		}
-	],
-	"interfaceLinkLibraries" : 
-	[
-		{
-			"backtrace" : 6,
-			"id" : "SDL3::Headers::@6890427a1f51a3e7e1df"
-		}
-	],
 	"local" : true,
-	"name" : "SDL3::SDL3-shared",
-	"nameOnDisk" : "libSDL3.0.dylib",
+	"name" : "SDL3::Headers",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
 	"sources" : [],
-	"type" : "SHARED_LIBRARY"
+	"type" : "INTERFACE_LIBRARY"
 }

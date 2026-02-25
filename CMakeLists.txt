@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.28)
-project(cppstg)
+cmake_minimum_required(VERSION 3.15...4.1)
 
-find_package(SDL3 REQUIRED CONFIG REQUIRED COMPONENTS SDL3-shared)
+project(CppSTG VERSION 1.0 LANGUAGES CXX)
 
-add_executable(cppstg main.cpp)
-target_link_libraries(cppstg PRIVATE SDL3::SDL3)
+find_package(SDL3 REQUIRED CONFIG)
+
+add_executable(CppSTG main.cpp)
+target_link_libraries(CppSTG PRIVATE SDL3::SDL3)
